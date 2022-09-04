@@ -73,7 +73,7 @@ Of course, the best solution to deal with this situation was E-learning
 
 4. Open postgres or any database manager you want ex: mysql, sqlite (Django Default) and create your own database
 
-5. Set the database type in `settings.py` to mysql and set the database name
+5. Set the database type in `settings.py` to postgres and set the database name
 
    - In case you logged in postgres as root, you don't have to specify your username and password to the database in `settings.py`
    - In case you logged in as a user, you have to specify your username and password to the database
