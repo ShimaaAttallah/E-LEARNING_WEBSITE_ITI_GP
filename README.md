@@ -69,7 +69,7 @@ Of course, the best solution to deal with this situation was E-learning
   `cd E-learning`
 
 3. Install requirments :
-   `pip install requirments.txt`
+   `pip install -r requirments.txt`
 
 4. Open postgres or any database manager you want ex: mysql, sqlite (Django Default) and create your own database
 
