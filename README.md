@@ -61,7 +61,7 @@ Of course, the best solution to deal with this situation was E-learning
 
 1. Clone This Project (Make Sure You Have Git Installed):
 
-`git clone https://github.com/OmarAbdelzaher/SBE-WEBSITE-ITI-GP` 2. Enter the Backend directory :
+`git clone git@github.com:ShimaaAttallah/E-LEARNING_WEBSITE_ITI_GP.git` 2. Enter the Backend directory :
 
 - Open 'cmd':
   `code .`
