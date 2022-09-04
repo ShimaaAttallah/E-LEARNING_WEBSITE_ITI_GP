@@ -1,0 +1,106 @@
+
+.detail{
+  background-color: #eee;
+  padding: 5%;
+}
+.descrip{
+  font-size: 20px;
+}
+
+/* ----------Reviews----------- */
+.reviewrate{
+  color: rgb(248, 217, 81);
+  width: 20px;
+  
+}
+div.scroll {
+  margin:auto;
+  padding:15px;
+  background-color: #eee;
+  width: 900px;
+  height: 140px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align:justify;
+}
+/* ----- */
+.R-review h2 {
+  color: black;
+  font-size: 30px;
+  font-weight:200;
+  text-transform: capitalize;
+  position: relative;
+  padding: 25px 25px 0;
+  margin-bottom: 10px;
+}
+/* .R-review h2::before{
+  content: "";
+  width: 80px;
+  height: 2px;
+  left: 34%;
+  top: 46px;
+  position: absolute;
+  background-color: blue;
+}
+.R-review h2::after{
+  content: "";
+  width: 80px;
+  height: 2px;
+  right: 34%;
+  top: 46px;
+  position: absolute;
+  background-color: blue;
+}
+.R-review h2 span{
+  position: relative;
+}
+.R-review span::before{
+  content: "";
+  width: 40px;
+  height: 2px;
+  left: -27%;
+  top: 14px;
+  position: absolute;
+  background-color: blue;
+}
+.R-review span::after{
+  content: "";
+  width: 40px;
+  height: 2px;
+  right: -27%;
+  top: 14px;
+  position: absolute;
+  background-color: blue;
+} */
+.R-review h2{
+  position: relative;
+	padding: 0 0 5px;
+	margin-bottom: 10px;
+}
+.R-review h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 75px;
+    border-radius: 2px;
+    background-color: blue
+}
+#Add-R h2{
+	position: relative;
+	padding: 0 0 5px;
+	margin-bottom: 10px;
+}
+#Add-R h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 55px;
+    border-radius: 2px;
+    background-color: blue
+}

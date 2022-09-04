@@ -1,0 +1,20 @@
+#service {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#service .col {
+    justify-content: center; 
+    flex-direction: column;
+    display: flex;
+}
+
+#service .card {
+    background-color: #eee;
+    box-shadow: 11px 7px 16px #f9f9f9;
+    border: 0;
+    text-align: center;
+}
+.icons{
+    font-size: 25px;
+}

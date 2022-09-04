@@ -1,0 +1,48 @@
+
+#about-us{
+    background-color: #eee;
+    padding: 4%;
+  }
+#cards .card {
+    border-radius: 20px;
+    min-height: 100%;
+}
+.team{
+  font-weight: bold;
+  letter-spacing:2px;
+}
+#cards .heading-border {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+}
+
+#cards .card .picture img {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+    background: #f8f9fa!important;
+    padding: 10px;
+}
+
+#cards .card .user-content .user-name {
+    margin-right: 190px;
+}
+/* ----------- */
+
+  #conut h2{
+      position: relative;
+      padding: 0 0 5px;
+      margin-bottom: 10px;
+  }
+  #conut h2:after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      height: 3px;
+      width: 85px;
+      border-radius: 2px;
+      background-color: blue
+  }

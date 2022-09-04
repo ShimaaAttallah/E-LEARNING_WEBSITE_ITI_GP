@@ -1,0 +1,17 @@
+.course_image {
+    height: 250px !important;
+    width: 275px  !important;
+    
+    text-align: center;
+    justify-content: center;
+}
+
+/* img{
+    height: 150px ;
+    width: 140px  ;
+} */
+
+.image_video{
+    height: 150px ;
+    width: 140px  ;
+}
